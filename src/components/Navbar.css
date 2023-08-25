@@ -1,0 +1,120 @@
+
+:root {
+  --navBg: #292929;
+}
+
+.navbar {
+  /* background-color: var(--navBg); */
+  /* height: 80px; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.connect-btn {
+  margin: 24px 44px 0px 0px;
+  width: 156px;
+  height: 52px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* flex-shrink: 0; */
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(131deg, #7c0f35 0%, #581266 100%);
+}
+
+.connect-btn:hover {
+  background: linear-gradient(131deg, #b82458 0%, #811f95 100%);
+  border: 2px solid #fff;
+  overflow: hidden;
+}
+
+.nav-menu {
+  background-color: var(--navBg);
+  border-radius: 0px 32px 0px 0px;
+  width: 288px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.nav-active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-topLeft {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0 8px 16px;
+  margin: 5px 15px;
+}
+
+.nav-topLeftText {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Pacifico;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.active {
+  background-color: #f30050;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* padding: 8px 0 8px 0px; */
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f7f9f9;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  /* border-radius: 4px; */
+}
+
+.nav-text a:not(.active):hover {
+  background-color: #393838;
+}
+
+.nav-menu-items {
+  width: 100%;
+  padding: 0;
+}
+
+span {
+  margin-left: 16px;
+}

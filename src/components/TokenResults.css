@@ -1,0 +1,14 @@
+.token-results {
+  margin: 55px 0px 100px 0px;
+  width: 100%;
+}
+
+.token-results-header {
+  color: #f7f9f9;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-left: 40px;
+}
